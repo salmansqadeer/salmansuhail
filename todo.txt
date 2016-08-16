@@ -1,0 +1,6 @@
+fix contact us page.
+
+Write speaker page
+Update about me (after slack)
+-> Polish the mobile view (landing page)
+Add a section about your products and the products you have worked on?

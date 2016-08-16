@@ -1,0 +1,115 @@
+/* line 6, styles.scss */
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1; }
+  /* line 14, styles.scss */
+  #bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -2; }
+
+/* line 28, styles.scss */
+.homepage_h0 {
+  font-family: 'Raleway' !important;
+  font-size: 78px;
+  letter-spacing: -3.5px;
+  line-height: 80px;
+  font-weight: 700;
+  color: black;
+  margin-top: 300px;
+  text-transform: uppercase; }
+
+/* line 39, styles.scss */
+.tagline {
+  font-size: 26px;
+  letter-spacing: -0.5px;
+  margin-top: 20px;
+  margin-bottom: 100px; }
+
+/* line 47, styles.scss */
+span.highlight {
+  background-color: white;
+  padding: 5px 0;
+  /* change horizontal padding to 0 */
+  box-shadow: 20px 0 0 white, -12px 0 0 white;
+  /* add this line */ }
+
+/* line 53, styles.scss */
+.social_icons {
+  float: right;
+  padding-top: 10px; }
+  /* line 58, styles.scss */
+  .social_icons img {
+    width: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px; }
+
+/* line 67, styles.scss */
+.pageHeading {
+  font-family: 'Raleway' !important;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  margin-top: 140px;
+  text-transform: uppercase;
+  position: absolute; }
+
+/* line 78, styles.scss */
+.page_heading_image {
+  max-width: 100%; }
+
+/* line 85, styles.scss */
+.navigation {
+  background-color: white;
+  margin-top: 50px;
+  float: right;
+  font-weight: 400; }
+  /* line 91, styles.scss */
+  .navigation .btn-flat {
+    background-color: transparent;
+    padding: 0 1.3rem; }
+    /* line 95, styles.scss */
+    .navigation .btn-flat:hover {
+      background-color: #e0e0e0; }
+  /* line 100, styles.scss */
+  .navigation .btn-active {
+    background-color: #e0e0e0; }
+
+/* line 106, styles.scss */
+.button-collapse .material-icons {
+  padding: 15px 0 0 20px;
+  color: white; }
+
+/* line 115, styles.scss */
+blockquote {
+  color: #f4511e;
+  font-size: 2em;
+  line-height: 1.3em;
+  padding-left: 0px;
+  border-left: none; }
+
+/* line 124, styles.scss */
+.contact_form .btn-flat {
+  background-color: #e0e0e0; }
+  /* line 127, styles.scss */
+  .contact_form .btn-flat:hover {
+    background-color: #f4511e; }
+
+/* line 134, styles.scss */
+.contact h1 {
+  font-family: 'Raleway' !important;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 700;
+  color: black; }

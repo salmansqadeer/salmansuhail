@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Contact Me - Salman Suhail</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,700,600,500,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+  </head>
+
+  <body class="contact">
+
+    <!-- ********************* -->
+    
+<!-- NAVIGATION -->
+
+<!-- Mobile Navigation Button -->
+<!-- Button is white on the homepage, but black on the rest of the pages (which have a white background) -->
+<a href="#" data-activates="mobile-nav" class="button-collapse hide-on-large-only">
+    <i class="medium material-icons" style="color: black;">menu</i>
+</a>
+
+<!-- Mobile Navigation Menu -->
+<ul class="side-nav" id="mobile-nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About Me</a></li>
+  <li><a href="https://medium.com/sk3tch">Sketchbook</a></li>
+  <!-- <li><a href="speaking.html">Speaking</a></li> -->
+  <li><a href="http://www.perpetuallybeta.com">Blog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<!-- Desktop / Tablet Navigation -->
+<div class="container">
+  <div class="row">
+    <div class="navigation hide-on-med-and-down">
+      <a href="index.html" class="waves-effect waves-light btn-flat">Home</a>
+      <a href="about.html" class="waves-effect waves-light btn-flat">About</a>
+      <a href="https://medium.com/sk3tch" class="waves-effect waves-light btn-flat">Sketchbook</a>
+      <!-- <a href="speaking.html" class="waves-effect waves-light btn-flat">Speaking</a> -->
+      <a href="http://www.perpetuallybeta.com" class="waves-effect waves-light btn-flat">Blog</a>
+      <a href="contact.html" class="waves-effect waves-light btn-flat">Contact</a>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+
+      <div class="row">
+
+  <!-- <div class="s12">
+    <img class="page_heading_image" src="../images/bg.jpg" alt="" />
+  </div> -->
+    <div class="col m10 offset-m1 s12">
+        <h1 class="center-align page">Reach out and say hello.</h1>
+        <div class="row">
+            <form class="col s12" action="https://formspree.io/salmansqadeer@gmail.com" method="post">
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <input id="first_name" name="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col m6 s12">
+                        <input id="last_name" name="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" name="email" type="email" class="validate" required>
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m12 contact_form">
+                     <p class="right-align"><button class="btn btn-large btn-flat waves-effect waves-light" type="submit" name="action">Send</button></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+      
+<!-- SOCIAL ICONS -->
+
+<div class="social_icons">
+  <a href="https://www.facebook.com/salmansqadeer"> <img src="images/social_icons/facebook.png" alt="facebook"/> </a>
+  <a href="https://www.instagram.com/salmansq">   <img src="images/social_icons/instagram.png" alt="instagram"/> </a>
+  <a href="https://www.twitter.com/salmansq"> <img src="images/social_icons/twitter.png" alt="twitter"/> </a>
+  <a href="https://www.linkedin.com/in/salmansqadeer"> <img src="images/social_icons/linkedin.png" alt="linkedin"/> </a>
+  <a href="#"> <img src="images/social_icons/rss.png" alt="RSS"/> </a>
+
+</div>
+
+    </div>
+    <!-- ********************* -->
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../javascripts/materialize.js"></script>
+    <script type="text/javascript">
+      // custom JS code
+      $(".button-collapse").sideNav();
+    </script>
+
+  </body>
+</html>
