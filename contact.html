@@ -119,7 +119,11 @@
     <script type="text/javascript" src="../javascripts/materialize.js"></script>
     <script type="text/javascript">
       // custom JS code
-      $(".button-collapse").sideNav();
+      // $(".button-collapse").sideNav();
+      $( document ).ready(function() {
+          console.log( "ready!" );
+          $(".button-collapse").sideNav();
+      });
 
     </script>
 
