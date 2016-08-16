@@ -65,34 +65,39 @@ span.highlight {
   margin-top: 140px;
   text-transform: uppercase;
   position: absolute; }
+  @media screen and (max-width: 620px) {
+    /* line 67, styles.scss */
+    .pageHeading {
+      font-size: 40px;
+      margin-top: 44px; } }
 
-/* line 78, styles.scss */
+/* line 83, styles.scss */
 .page_heading_image {
   max-width: 100%; }
 
-/* line 85, styles.scss */
+/* line 90, styles.scss */
 .navigation {
   background-color: white;
   margin-top: 50px;
   float: right;
   font-weight: 400; }
-  /* line 91, styles.scss */
+  /* line 96, styles.scss */
   .navigation .btn-flat {
     background-color: transparent;
     padding: 0 1.3rem; }
-    /* line 95, styles.scss */
+    /* line 100, styles.scss */
     .navigation .btn-flat:hover {
       background-color: #e0e0e0; }
-  /* line 100, styles.scss */
+  /* line 105, styles.scss */
   .navigation .btn-active {
     background-color: #e0e0e0; }
 
-/* line 106, styles.scss */
+/* line 111, styles.scss */
 .button-collapse .material-icons {
   padding: 15px 0 0 20px;
   color: white; }
 
-/* line 115, styles.scss */
+/* line 120, styles.scss */
 blockquote {
   color: #f4511e;
   font-size: 2em;
@@ -100,14 +105,14 @@ blockquote {
   padding-left: 0px;
   border-left: none; }
 
-/* line 124, styles.scss */
+/* line 129, styles.scss */
 .contact_form .btn-flat {
   background-color: #e0e0e0; }
-  /* line 127, styles.scss */
+  /* line 132, styles.scss */
   .contact_form .btn-flat:hover {
     background-color: #f4511e; }
 
-/* line 134, styles.scss */
+/* line 139, styles.scss */
 .contact h1 {
   font-family: 'Raleway' !important;
   font-size: 78px;
