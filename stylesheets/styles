@@ -1,4 +1,4 @@
-/* line 27, styles.scss */
+/* line 8, styles.scss */
 .homepage_background {
   background: url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,7 +6,7 @@
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 36, styles.scss */
+/* line 16, styles.scss */
 .homepage_h0 {
   font-family: 'Raleway' !important;
   font-size: 78px;
@@ -16,15 +16,28 @@
   color: black;
   margin-top: 300px;
   text-transform: uppercase; }
+  @media screen and (max-width: 992px) {
+    /* line 16, styles.scss */
+    .homepage_h0 {
+      margin-top: 200px; } }
+  @media screen and (max-width: 620px) {
+    /* line 16, styles.scss */
+    .homepage_h0 {
+      margin-top: 100px; } }
 
-/* line 47, styles.scss */
+/* line 34, styles.scss */
 .tagline {
   font-size: 26px;
   letter-spacing: -0.5px;
   margin-top: 20px;
   margin-bottom: 100px; }
+  @media screen and (max-width: 620px) {
+    /* line 34, styles.scss */
+    .tagline {
+      font-size: 22px;
+      margin-bottom: 5px; } }
 
-/* line 55, styles.scss */
+/* line 47, styles.scss */
 span.highlight {
   background-color: white;
   padding: 5px 0;
@@ -32,17 +45,17 @@ span.highlight {
   box-shadow: 20px 0 0 white, -12px 0 0 white;
   /* add this line */ }
 
-/* line 61, styles.scss */
+/* line 53, styles.scss */
 .social_icons {
   float: right;
   padding-top: 10px; }
-  /* line 66, styles.scss */
+  /* line 57, styles.scss */
   .social_icons img {
     width: 50px;
     padding-left: 10px;
     padding-bottom: 50px; }
 
-/* line 75, styles.scss */
+/* line 67, styles.scss */
 .pageHeading {
   font-family: 'Raleway' !important;
   font-size: 78px;
@@ -53,33 +66,33 @@ span.highlight {
   text-transform: uppercase;
   position: absolute; }
 
-/* line 86, styles.scss */
+/* line 78, styles.scss */
 .page_heading_image {
   max-width: 100%; }
 
-/* line 93, styles.scss */
+/* line 85, styles.scss */
 .navigation {
   background-color: white;
   margin-top: 50px;
   float: right;
   font-weight: 400; }
-  /* line 99, styles.scss */
+  /* line 91, styles.scss */
   .navigation .btn-flat {
     background-color: transparent;
     padding: 0 1.3rem; }
-    /* line 103, styles.scss */
+    /* line 95, styles.scss */
     .navigation .btn-flat:hover {
       background-color: #e0e0e0; }
-  /* line 108, styles.scss */
+  /* line 100, styles.scss */
   .navigation .btn-active {
     background-color: #e0e0e0; }
 
-/* line 114, styles.scss */
+/* line 106, styles.scss */
 .button-collapse .material-icons {
   padding: 15px 0 0 20px;
   color: white; }
 
-/* line 123, styles.scss */
+/* line 115, styles.scss */
 blockquote {
   color: #f4511e;
   font-size: 2em;
@@ -87,14 +100,14 @@ blockquote {
   padding-left: 0px;
   border-left: none; }
 
-/* line 132, styles.scss */
+/* line 124, styles.scss */
 .contact_form .btn-flat {
   background-color: #e0e0e0; }
-  /* line 135, styles.scss */
+  /* line 127, styles.scss */
   .contact_form .btn-flat:hover {
     background-color: #f4511e; }
 
-/* line 142, styles.scss */
+/* line 134, styles.scss */
 .contact h1 {
   font-family: 'Raleway' !important;
   font-size: 78px;

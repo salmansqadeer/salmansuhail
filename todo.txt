@@ -1,4 +1,5 @@
-fix contact us page.
+
+optimize mobile homepage
 
 Write speaker page
 Update about me (after slack)
